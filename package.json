@@ -1,0 +1,26 @@
+{
+  "name": "awsiot1",
+  "version": "0.0.1",
+  "description": "AWS IoT Demo",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "iot",
+    "embedded"
+  ],
+  "author": "Gergely Imreh <imrehg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-iot-device-sdk": "git+https://github.com/aws/aws-iot-device-sdk-js.git",
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^2.4.1",
+    "bmp085": "git+https://github.com/pilotak/bmp085.git",
+    "later": "^1.2.0",
+    "mqtt": "^1.4.3",
+    "onoff": "^1.0.3"
+  }
+}
